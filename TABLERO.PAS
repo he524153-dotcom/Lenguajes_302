@@ -1,4 +1,4 @@
-program TableroAjedrez
+program TableroAjedrez;
 uses crt;
 var
    i, j: integer;
@@ -9,9 +9,9 @@ begin
           for j := 1 to 8 do
           begin
                if (i + j) mod 2 = 0 then
-                  write('B') {blanco}
+                  write('²') {blanco}
                else
-                   write('N'); {Negro}
+                   write('Û'); {Negro}
           end;
           writeln;
      end;
